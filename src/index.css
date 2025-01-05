@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-gray-100;
+  }
+}
+
+.cyber-gradient {
+  background: linear-gradient(135deg, #000000 0%, #0F2027 100%);
+}
+
+.nav-item {
+  @apply text-gray-300 hover:text-green-400 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200;
+}
+
+.nav-item:hover {
+  text-shadow: 0 0 8px rgba(74, 222, 128, 0.5);
+}
+
+.hero-gradient {
+  background: radial-gradient(circle at center, rgba(74, 222, 128, 0.15) 0%, rgba(0, 0, 0, 0.95) 100%);
+}
