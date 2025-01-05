@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Terminal, Shield, Code } from 'lucide-react';
 import HeroButton from './HeroButton';
 
