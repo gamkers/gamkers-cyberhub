@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Award, Shield, Book, FileCheck, Search, Code, Cloud } from 'lucide-react';
 
 const certifications = [
