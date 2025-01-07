@@ -9,6 +9,8 @@ import EthicalHackingSection from './components/ethical-hacking/EthicalHackingSe
 import NetworkSecuritySection from './components/network-security/NetworkSecuritySection';
 import MalwareAnalysisSection from './components/malware-analysis/MalwareAnalysisSection';
 import ComputerFundamentals from './components/fundamentals/ComputerFundamentals';
+import AdvancedTopicsSection from './components/advanced-topics/AdvancedTopicsSection';
+import CertificationSection from './components/certifications/CertificationSection';
 import AboutUs from './components/about/AboutUs';
 import Courses from './components/courses/Courses';
 
@@ -27,7 +29,8 @@ function App() {
       <EthicalHackingSection />
       <NetworkSecuritySection />
       <MalwareAnalysisSection />
-      
+      <AdvancedTopicsSection />
+      <CertificationSection />
     </div>
   );
 }

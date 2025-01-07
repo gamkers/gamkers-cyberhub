@@ -1,10 +1,20 @@
-
+import React from 'react';
 import { Shield, Terminal, Lock } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <div className="hero-gradient min-h-screen pt-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
+    <div className="relative min-h-screen pt-16 overflow-hidden">
+      {/* Hero Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80"
+          alt="Cybersecurity Background"
+          className="w-full h-full object-cover opacity-100"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-black/95 to-black" />
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 relative z-10">
         <div className="text-center">
           <div className="flex justify-center space-x-6 mb-8">
             <Terminal className="h-12 w-12 text-green-400 animate-pulse" />
